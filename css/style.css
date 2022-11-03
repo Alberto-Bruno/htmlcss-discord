@@ -49,11 +49,17 @@ h1{
 p{
   font-size: x-large;
 }
+
+a{
+  padding: 30px;
+  color: white;
+}
+
 /* # Navbar */
 
 .navbar {
   height: 80px;
-
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -62,7 +68,6 @@ p{
 .navbar > * {
   padding: 10px;
   flex-basis: 20%;
-  background-color: goldenrod;
 }
 
 .navbar-menu {
@@ -90,7 +95,6 @@ p{
   width: 50%;
   height: 100%;
   padding: 50px;
-  background-color: violet;
   text-align: center;
 }
 
@@ -111,7 +115,20 @@ section > .container {
 
 .flex > .large-col {
   flex-basis: 60%;
-  background-color: dodgerblue;
+  background-image: url("../img/item1.svg");
+  background-size: 100%;
+}
+
+.flex>.large-col2 {
+  flex-basis: 60%;
+  background-image: url("../img/item2.svg");
+  background-size: 100%;
+}
+
+.flex>.large-col3 {
+  flex-basis: 60%;
+  background-image: url("../img/item3.svg");
+  background-size: cover;
 }
 
 .flex > .full-col {
