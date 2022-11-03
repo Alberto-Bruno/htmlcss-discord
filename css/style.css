@@ -25,9 +25,6 @@ body {
   flex-direction: row-reverse;
 }
 
-.debug .border {
-  border: 2px dashed black;
-}
 
 .bg-white {
   background-color: white;
@@ -38,7 +35,8 @@ body {
 }
 
 header {
- background-color: dodgerblue;
+ background-color: rgb(1, 107, 213);
+ color: white;
 }
 
 h1{
@@ -54,6 +52,7 @@ a{
   padding: 30px;
   color: white;
 }
+
 
 /* # Navbar */
 
@@ -77,6 +76,20 @@ a{
 
 .navbar-actions {
   text-align: right;
+}
+
+.login-button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.link-button{
+  border-radius: 20px;
+  padding: 5px 20px;
+  border: 10px solid transparent;
+  cursor: pointer;
 }
 
 /* # Jumbotron */
@@ -110,7 +123,6 @@ section > .container {
 
 .flex > .small-col {
   flex-basis: 40%;
-  background-color: pink;
 }
 
 .flex > .large-col {
@@ -133,7 +145,8 @@ section > .container {
 
 .flex > .full-col {
   flex-basis: 100%;
-  background-color: darkgreen;
+  background-image: url("../img/item4-big.svg");
+  background-size: cover;
 }
 
 /* # Footer */
