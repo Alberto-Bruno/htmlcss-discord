@@ -79,7 +79,8 @@ p{
 .jumbotron {
   padding: 50px;
   height: 500px;
-  background-image: url("img/jumbo.png");
+  background-image: url("../img/jumbo.png");
+  background-size: 100%;
 
   display: flex;
   justify-content: center;
