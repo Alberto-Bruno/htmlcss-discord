@@ -46,10 +46,11 @@ h1{
 
 p{
   font-size: x-large;
+  padding: 10px;
 }
 
 a{
-  padding: 30px;
+  padding: 30;
   color: white;
 }
 
@@ -58,7 +59,7 @@ a{
 
 .navbar {
   height: 80px;
-  
+
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -87,9 +88,24 @@ a{
 
 .link-button{
   border-radius: 20px;
-  padding: 5px 20px;
   border: 10px solid transparent;
   cursor: pointer;
+}
+
+.light{
+  color: black;
+  background-color: white;
+}
+
+.dark{
+  color: white;
+  background-color: black;
+}
+
+.large{
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 5px 20px;
 }
 
 /* # Jumbotron */
