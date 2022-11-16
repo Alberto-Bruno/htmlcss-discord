@@ -45,13 +45,14 @@ h1{
 }
 
 p{
-  font-size: x-large;
-  padding: 10px;
+  font-size: 20px;
+  padding: 20px;
 }
 
 a{
-  padding: 30;
+  padding: 20px;
   color: white;
+  cursor: pointer;
 }
 
 
@@ -121,7 +122,7 @@ a{
 }
 
 .jumbotron .content {
-  width: 50%;
+  width: 70%;
   height: 100%;
   padding: 50px;
   text-align: center;
@@ -134,7 +135,7 @@ section {
 }
 
 section > .container {
-  height: 100%;
+  min-height: 100%;
 }
 
 .flex > .small-col {
@@ -147,20 +148,20 @@ section > .container {
   background-size: 100%;
 }
 
-.flex>.large-col2 {
+.flex > .large-col2 {
   flex-basis: 60%;
   background-image: url("../img/item2.svg");
   background-size: 100%;
 }
 
-.flex>.large-col3 {
+.flex > .large-col3 {
   flex-basis: 60%;
   background-image: url("../img/item3.svg");
   background-size: cover;
 }
 
 .flex > .full-col {
-  flex-basis: 100%;
+  flex-basis: 60%;
   background-image: url("../img/item4-big.svg");
   background-size: cover;
 }
@@ -177,25 +178,28 @@ footer {
   height: 600px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px solid purple;
+  border-bottom: 1px solid gray;
 
   display: flex;
 }
 
 .footer-top .footer-left {
   flex-basis: 30%;
-  background-color: pink;
 }
 
 .footer-top .footer-right {
   flex-basis: 70%;
-  background-color: #20b2aa;
 }
 
 .footer-nav {
   height: 100%;
   display: flex;
-  /* background-color: #fff; */
+}
+
+.nav-col ul {
+  list-style-type: none;
+  flex-grow: 10px;
+  
 }
 
 .footer-nav > div {
@@ -207,10 +211,8 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: aquamarine;
 }
 
 .footer-bottom > * {
   padding: 5px 10px;
-  background-color: yellow;
 }
